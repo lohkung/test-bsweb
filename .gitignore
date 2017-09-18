@@ -1,0 +1,8 @@
+*.7z
+.metadata
+.recommenders
+*.class
+*.bak
+*.settings
+*.classpath
+*.project
