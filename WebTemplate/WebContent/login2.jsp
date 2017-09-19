@@ -14,6 +14,9 @@
     
     <!-- Custom CSS -->
     <link href="assets/css/app-admin.css" rel="stylesheet">
+    
+    <!-- Login CSS -->
+    <link href="assets/css/login-frm.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,31 +30,26 @@
   <body>
   
  	<div class="container">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <div class="login-panel panel panel-primary">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Please Sign In</h3>
-                    </div>
-                    <div class="panel-body">
-                        <form role="form">
-                            <fieldset>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="E-mail" name="email" type="email" required="" autofocus>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="password" type="password" value="">
-                                </div>
-                                <!-- Change this to a button or input when using this as a form -->
-                                <a href="index.jsp" class="btn btn-lg btn-primary btn-block">Login</a>
-                            </fieldset>
-                        </form>
-                    </div>
+    <h1 class="welcome text-center">Welcome to <br> ABC WEB</h1>
+        <div class="card card-container">
+        <h2 class='login_title text-center'>Login</h2>
+        <hr>
+
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <p class="input_title">Username</p>
+                <input type="text" id="inputEmail" class="login_box" placeholder="Username" required autofocus>
+                <p class="input_title">Password</p>
+                <input type="password" id="inputPassword" class="login_box" placeholder="******" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        
+                    </label>
                 </div>
-            </div>
-        </div>
-    </div>
-	
+                <button class="btn btn-lg btn-primary" type="submit">Login</button>
+            </form><!-- /form -->
+        </div><!-- /card-container -->
+    </div><!-- /container -->
 	
 	  
 	
