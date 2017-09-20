@@ -246,17 +246,35 @@
 	
 	<div class="container">
 		<div class="row">
-               <div class="col-lg-12">
-                   <h1 class="page-header">Tables</h1>
-               </div>
-               <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-		<div class="row">
-                <div class="col-lg-12">
-                    <div class="panel panel-default">
+        	<div class="col-lg-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					  <h3 class="panel-title">Main Panel</h3>
+					</div>
+					<div class="panel-body">
+						<form role="form">
+						    <div class="panel panel-default">
+								<div class="panel-heading">
+								  <h3 class="panel-title">Search Criteria</h3>
+								</div>
+								<div class="panel-body">
+									<div class="col-lg-3">
+									    <div class="form-group">
+									         <label>Text Input</label>
+									         <input class="form-control">
+									     </div>
+									</div>				         
+								</div>
+								<div class="panel-footer">
+									<button type="button" class="btn btn-primary btn-sm">Search</button>
+									<button type="button" class="btn btn-sm">Cancel</button>
+								</div>	
+							</div>
+						</form>
+						
+						<div class="panel panel-default">
                         <div class="panel-heading">
-                            DataTables Advanced Tables
+                            Search Result
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -677,16 +695,21 @@
                             
                         </div>
                         <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
+	                    </div>
+	                    <!-- /.panel -->
+						
+						
+						
+					</div>
+        		</div>
+       		</div>
+           <!-- /.col-lg-12 -->
+       </div>
+       <!-- /.row -->
 	</div>
 	
 	
-	
+	<br/><br/>
 	
 	<!--  start footer -->
     <!--Footer-->
@@ -702,7 +725,7 @@
 		
 						<div class="copyright">
 		
-							 2015, Webenlance, All rights reserved
+							 2017, WebAdmin, All rights reserved
 		
 						</div>
 		
@@ -712,7 +735,7 @@
 		
 						<div class="design">
 		
-							 <a href="#">Franchisee </a> |  <a target="_blank" href="http://www.webenlance.com">Web Design & Development by Webenlance</a>
+							 <a href="#">Admin </a> |  <a target="_blank" href="http://www.webenlance.com">Web Design & Development by Webenlance</a>
 		
 						</div>
 		
